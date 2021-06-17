@@ -1,0 +1,68 @@
+.profileImage {
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+
+.header {
+    padding: 10px 10% 10px 3%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+section {
+    padding: 0 10%;
+}
+
+section > p, section > ul > li, section > h2 {
+    padding: 0 10px;
+}
+
+.footer {
+    padding: 10px 10% 10px 3%;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightgray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.icons {
+    width: 150px;
+    height: 100px;
+    margin-left: auto;
+}
+
+.background {
+    background-image: url('./img/medellin.jpg');
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.nav {
+    float: right;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+}
+
+li > a {
+    text-decoration: none;
+    color: inherit;
+    text-align: left;
+}
+
+.title {
+    background-color: crimson;
+    color: white;
+}
